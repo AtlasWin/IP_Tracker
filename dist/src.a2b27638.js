@@ -22500,10 +22500,6 @@ var map = _leaflet2.default.map(mapArea, {
 
 (0, _helpers.addTileLayer)(map);
 
-_leaflet2.default.marker([51.505, -0.09], {
-  icon: markerIcon
-}).addTo(map);
-
 function getData() {
   if ((0, _helpers.validateIp)(ipInput.value)) {
     (0, _helpers.getAddress)(ipInput.value).then(setInfo);
@@ -22570,7 +22566,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62612" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63716" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
